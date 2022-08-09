@@ -17,7 +17,7 @@ def get_elements(page):
     return page.find('div', class_='ads').findAll('article')
 
 
-def get_next_page(page):
+def get_next_page(page, _page_url):
     next_page = page.find('a', class_='button button--pill button--has-icon button--icon-right')
     if not next_page:
         return None
