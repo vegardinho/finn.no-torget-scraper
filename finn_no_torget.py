@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+#!/usr/bin/env python3
 
 from urllib.parse import urljoin
 from scrape_tools import scrape_site
